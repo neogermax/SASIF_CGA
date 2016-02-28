@@ -1,0 +1,132 @@
+﻿/*-----------------------CAMPOS GENERALES ---------------------------*/
+input
+{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    border-radius: 3px;
+}
+/*fuente para todos los campos*/
+h1, h2, h3, h4, table, tr, td
+{
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+/*----------------------- TITULO ---------------------------*/
+/*personalizacion del titulo*/
+#titulo_login
+{
+    text-align: center;
+    padding-bottom: 2%;
+    margin-top: 15%;
+    color: #ffffff;
+}
+
+/*----------------------- FORMULARIO LOGIN ---------------------------*/
+/*ajuste de tamaño en los td*/
+td
+{
+    /* height: 30px;*/
+}
+/*encasulado del tablaregistro*/
+#marco
+{
+    padding-bottom: 25%;
+    padding-left: 35%;
+    padding-right: 35%;
+}
+/*personalizacion de la tabla de entrada */
+#TablaRegistro
+{
+    width: 100%;
+    padding: 20px 26px;
+    background-color: silver;
+    border-radius: 0 0 20px 20px;
+    border-color: gray;
+    border-width: 5px;
+    border-style: outset;
+}
+/*perzonalizacion de labels*/
+#LblPassword, #Lbluser, #lblConfirmPassword, #LblShow
+{
+    font-weight: bold;
+    padding-left: 1em;
+}
+/*perzonalizacion de cajas de texto*/
+#TdPassword, #TdUser, #TdConfirmPassword, #TdCheck
+{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+/*perzonalizacion de cajas de texto*/
+#TxtUser, #TxtPassword
+{
+    -webkit-appearance: none;
+    border: none;
+    width: 80%;
+}
+/*perzonalizacion de mensajes*/
+#TdHelpUser, #TdHelpPassword, #TdHelpConfirmPassword
+{
+    color: red;
+    font-weight: bold;
+    padding-left: 3em;
+}
+
+img
+{
+    color: #900;
+    text-decoration: none;
+}
+
+img:hover
+{
+    color: red;
+    position: relative;
+}
+
+img[title]:hover:after
+{
+    content: attr(title);
+    padding: 4px 8px;
+    color: #333;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    white-space: nowrap;
+    z-index: 20px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0px 0px 4px #222;
+    -webkit-box-shadow: 0px 0px 4px #222;
+    box-shadow: 0px 0px 4px #222;
+    background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #eeeeee),color-stop(1, #cccccc));
+    background-image: -webkit-linear-gradient(top, #eeeeee, #cccccc);
+    background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+    background-image: -ms-linear-gradient(top, #eeeeee, #cccccc);
+    background-image: -o-linear-gradient(top, #eeeeee, #cccccc);
+}
+/*----------------------------------------------------------------------------*/
+/*----------------------- PAG CAMBIO DE CONTRASEÑA ---------------------------*/
+/*personalizacion de la tabla de entrada */
+#TablaContraseña
+{
+    width: 100%;
+    padding: 20px 26px;
+    background-color: silver;
+    border-radius: 0 0 20px 20px;
+    border-color: gray;
+    border-width: 5px;
+    border-style: outset;
+}
+
+#txtConfirmPassword
+{
+    width: 80%;
+    -webkit-appearance: none;
+    border: none;
+}
+
