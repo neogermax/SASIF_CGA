@@ -1,0 +1,108 @@
+/* 
+    Document   : css_style005
+    Created on : 18/06/2014, 11:39:36 AM
+    Author     : analista03
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+
+
+
+body {
+	font-size: 12px;
+	line-height: 1.5em;
+        
+}
+
+input {
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+	-webkit-appearance: none;
+}
+#resaltar {
+        margin-left: 120px;
+	
+        position: absolute;
+        top: 80px;
+        left: 0px;
+        width: 100px;
+      
+        
+        
+}
+
+#resaltar h2 {
+	-webkit-border-radius: 20px 20px 0 0;
+	-moz-border-radius: 20px 20px 0 0;
+	border-radius: 20px 20px 0 0;
+	font-size: 28px;
+	padding: 20px 26px;
+        margin-bottom: 0;
+        
+}
+
+#resaltar fieldset {
+	-webkit-border-radius: 20px 20px 20px 20px;
+	-moz-border-radius: 20px 20px 20px 20px;
+	border-radius: 20px 20px 20px 20px;
+        border-style: outset;
+        border-width: 5px;
+        border-color: gray;
+	padding: 10px 20px;
+        line-height: none;
+        
+       
+}
+
+
+        
+        
+#resaltar fieldset input {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+        
+}
+
+#resaltar fieldset input[type="text"], #login fieldset input[type="password"] {
+	padding: 4px 10px;
+	width: 65px;
+        
+        
+        
+}
+#resaltar fieldset input[type="radio"] {
+    
+        border-style: outset;
+}
+#resaltar fieldset input[type="radio"]:checked+label {
+        border-style: inset;
+        
+}
+
+#resaltar th {
+    border-style: outset;
+    border-width: 2px;
+    font-size: 14px;
+    
+}
+#resaltar fieldset button {
+    border-style: outset;
+}
+
+#pg1 {
+    width: 5px;
+    height: 5px;
+}
+
+.ui-growl {
+        top:600px;
+        right:430px;
+        width:301px;
+        z-index:9999;
+}

@@ -1,0 +1,5 @@
+.error_campo {
+    background-image: url('../images/error.png')!important;
+    padding:7px 32px 10px 0px;
+    background-repeat: no-repeat;
+}

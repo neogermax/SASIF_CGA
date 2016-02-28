@@ -1,0 +1,262 @@
+.contenedor
+{
+    margin: 0PX auto;
+}
+#cabecera
+{
+    position: relative;
+    overflow: hidden;
+    height: 110PX;
+    width: 1250PX; 
+}
+#logo {
+	/*position: absolute;
+	top: 1em;
+	left: 1em;*/
+  width: 140px;
+  height: 80px;
+  background-color:black;
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  /*para Firefox*/
+  -moz-border-radius: 50px 50px 50px 50px;
+  /*para Safari y Chrome*/
+  -webkit-border-radius: 50px 50px 50px 50px;
+  /* para Opera */
+  border-radius: 50px 50px 50px 50px;
+  /* para IE */
+
+}
+.img-logo{
+  height: 80px;
+  width: 130px;
+  background-color: black;
+  /*para Firefox*/
+  -moz-border-radius: 50px 50px 50px 50px;
+  /*para Safari y Chrome*/
+  -webkit-border-radius: 50px 50px 50px 50px;
+  /* para Opera */
+  border-radius: 50px 50px 50px 50px;
+  
+}
+#date
+{
+        background-color: black;  
+        position: absolute;
+        top: 4em;
+        right: 1em;
+        width: 120px;
+        color: white;
+        font: 14px/20px Verdana,sans-serif;
+        opacity: 0.7;
+        filter:alpha(opacity=30); /* For IE8 and earlier */
+        /*para Firefox*/
+        -moz-border-radius: 50px 0px 50px 0px;
+        -moz-box-shadow: 0 15px 8px -6px white;
+        /*para Safari y Chrome*/
+        -webkit-border-radius: 50px 0px 50px 0px;
+        -webkit-box-shadow: 0 15px 8px -6px white;
+        /* para Opera  y IE*/
+        border-radius: 50px 0px 50px 0px;
+        box-shadow: 0 13px 8px -6px white;
+        /* para IE */
+        behavior:url('../generales/css/PIE.htc');
+ }
+ #semP {
+     position: absolute;
+     bottom: 6em;
+     right: 17em;
+ }
+ #semA {
+     position: absolute;
+     bottom: 6em;
+     right: 14em;
+ }
+#page {
+	overflow: hidden;
+	margin : 0px auto;
+        height: 690px;
+        width:1250px;
+}
+#title {
+    position: relative;
+    top: 2.5em;
+    text-align: center;
+}
+#user {
+    position: relative;
+    text-align: center;
+    top: 3.5em;
+}
+#pie_pagina 
+{
+    position: relative;
+    overflow: hidden;
+    height: 100PX;
+    width: 1250PX; 
+}
+#logout
+{
+	position: absolute;
+	right: 1.3em;
+}
+#logout input[type="submit"] {
+	display: block;
+	margin: 0 auto;
+	padding: 4px 0;
+	width: 75px;
+}
+#contenido {
+    position: relative;
+}
+.container {
+}
+#izq {
+    width: 250px;
+}
+#der {
+    position: absolute;
+    top: 0;
+    left: 250px;
+    width: 1000px;
+}
+
+#izq-visor {
+    width: 200px;
+}
+#der-visor {
+    position: absolute;
+    top: 0;
+    left: 210px;
+    width: 200px;
+}
+
+.ui-growl {
+        top:600px;
+        right:430px;
+        width:301px;
+        z-index:9999;
+}
+
+.ui-folder-collapsed {
+    background-image: url('../images/folder_collapsed.gif')!important;
+    height: 16px;
+    width: 16px;
+}
+.ui-folder-extended {
+    background-image: url('../images/folder_extended.gif')!important;
+    height: 16px;
+    width: 16px;
+}
+.ui-document {
+    background-image: url('../images/document.gif')!important;
+    height: 16px;
+    width: 16px;
+}
+.ui-unidad {
+    background-image: url('../images/unidad.gif')!important;
+    height: 16px;
+    width: 16px;
+}
+
+.ui-archivo {
+    background-image: url('../images/archivo.gif')!important;
+    height: 16px;
+    width: 16px;
+}
+
+
+.ui-button-exit {
+    background-image: url('../images/salir.gif')!important;
+    height: 16px;
+    width: 16px;
+}
+.ui-button-help {
+    background-image: url('../images/ayuda.gif')!important;
+    height: 16px;
+    width: 16px;
+}
+.ui-button-consulta {
+    background-image: url('../images/consulta.gif')!important;
+    height: 16px;
+    width: 16px;
+}
+.ui-button-creacion {
+    background-image: url('../images/crear.gif')!important;
+    height: 16px;
+    width: 16px;
+}
+.ui-button-actualizar {
+    background-image: url('../images/actualizar.gif')!important;
+    height: 16px;
+    width: 16px;
+}
+.ui-button-eliminar {
+    background-image: url('../images/eliminar.gif')!important;
+    height: 16px;
+    width: 16px;
+}
+.ui-button-componentes {
+    background-image: url('../images/informa.gif')!important;
+    height: 16px;
+    width: 16px;
+}
+.ui-button-add {
+    background-image: url('../images/add.gif')!important;
+    height: 16px;
+    width: 16px;
+}
+.ui-button-del {
+    background-image: url('../images/del.gif')!important;
+    height: 16px;
+    width: 16px;
+}
+.ui-mapa {
+    background-image: url('../images/mapa.gif')!important;
+    height: 16px;
+    width: 16px;
+}
+.ui-tabla {
+    background-image: url('../images/tabla.gif')!important;
+    height: 16px;
+    width: 16px;
+}
+.ui-accordion .ui-accordion-header {
+    background-image: url('../images/menu4.jpg');
+    cursor: pointer; 
+    position: relative; 
+    margin-top: 0px;
+    height: 39px;
+    zoom: 1;
+}
+.ui-accordion .ui-accordion-header a {
+    color: white;
+    display: block; 
+    font-size: 1em;
+    padding: .9em .5em .5em 2.2em;
+}
+.ui-accordion .ui-accordion-content { 
+    padding: 0; 
+    border-top: 0; 
+    margin-top: -2px; 
+    position: relative; 
+    top: 1px; 
+    margin-bottom: 2px; 
+    overflow: auto; 
+    zoom: 1;
+}
+
+.ui-tree .ui-tree-container {
+    height: 100%;
+    margin: 0;
+    overflow: auto;
+    padding: 3px;
+    white-space: nowrap;
+}
+
+.ui-datatable-scrollable-body::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    border: 1px solid white;
+    background-color: darkgray;
+}
